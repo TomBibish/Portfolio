@@ -16,19 +16,19 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>Building Websites from 0 to 100</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>Connect beetween front&back</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>Manage data in sqlDB</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>Deploy websites</p>
                         </li>
                     </ul>
                 </article>
@@ -39,19 +39,19 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>Great knowledge in Python</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>Build API using Django</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>Data structures, Object oriented </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>Logic thinking about solving missions</p>
                         </li>
                     </ul>
                 </article>
@@ -62,19 +62,15 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>React - Class and Functional Components</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>Good skills in CSS3 & HTML5</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon'/>
-                            <p>Lorem ipsum</p>
+                            <p>Basic Knowledge in pure JS</p>
                         </li>
                     </ul>
                 </article>
