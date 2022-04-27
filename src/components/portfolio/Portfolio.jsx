@@ -2,6 +2,7 @@ import React from "react";
 import './portfolio.css';
 import SPORTWOW from '../../assets/sport_wow_home.jpeg'
 import MOVIES from '../../assets/movies.jpg'
+import EXPENSE from '../../assets/ExpenseApp.jpg'
 const Portfolio = () => {
     return(
         <section id="portfolio">
@@ -27,6 +28,18 @@ const Portfolio = () => {
                         <h3>MovieApp</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/TomBibish/MovieApp" className='btn' target="_blank">GitHub </a>
+                    </div>
+                </article>
+                <article className='portfolio__item'>
+                    <div className='portfolio__item-image'>
+                        <img src={EXPENSE} alt="movies"/>
+                    </div>
+                    <h3>ExpenseApp</h3>
+                    <div className='portfolio__item-cta'>
+                        <a href="https://github.com/TomBibish/ExpenseApp.git" className='btn' target="_blank">GitHub </a>
+                        <a href="https://expense-app-one.vercel.app/" className='btn btn-primary' target="_blank">
+                            Check Out
+                        </a>
                     </div>
                 </article>
             </div>
