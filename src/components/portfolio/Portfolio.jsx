@@ -3,6 +3,7 @@ import './portfolio.css';
 import SPORTWOW from '../../assets/sport_wow_home.jpeg'
 import MOVIES from '../../assets/movies.jpg'
 import EXPENSE from '../../assets/ExpenseApp.jpg'
+import LOOPMACHINE from '../../assets/loop machine.jpg'
 const Portfolio = () => {
     return(
         <section id="portfolio">
@@ -38,6 +39,18 @@ const Portfolio = () => {
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/TomBibish/ExpenseApp.git" className='btn' target="_blank">GitHub </a>
                         <a href="https://expense-app-one.vercel.app/" className='btn btn-primary' target="_blank">
+                            Check Out
+                        </a>
+                    </div>
+                </article>
+                <article className='portfolio__item'>
+                    <div className='portfolio__item-image'>
+                        <img src={LOOPMACHINE} alt="movies"/>
+                    </div>
+                    <h3>Loop Machine</h3>
+                    <div className='portfolio__item-cta'>
+                        <a href="https://github.com/TomBibish/LoopMachine" className='btn' target="_blank">GitHub </a>
+                        <a href="https://loop-machine-moveo.herokuapp.com/" className='btn btn-primary' target="_blank">
                             Check Out
                         </a>
                     </div>
